@@ -45,6 +45,7 @@ public class RegistController extends BaseController  {
             return LGOIN;
         } catch (Exception e) {
 
+            System.out.println("修改上传");
             return setError(request, "注册失败！",LOCAREGIST);
         }
     }
