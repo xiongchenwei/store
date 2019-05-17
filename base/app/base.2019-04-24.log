@@ -1,0 +1,1037 @@
+2019-04-24 10:35:41.247 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 10:35:43.782 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 10:35:43.784 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 10:35:43.927 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:35:45.494 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 10:35:45.495 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 10:35:45.500 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 10:35:45.500 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 10:35:48.519 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 10:35:48.756 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 10:35:49.148 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 10:35:49.149 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 10:35:49.321 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 10:35:49.321 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 10:35:49.651 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 10:35:49.821 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 10:35:49.821 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 10:35:49.821 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 10:35:49.821 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 10:35:49.821 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 10:35:49.821 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 10:35:49.821 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 10:35:50.168 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 10:35:50.169 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 10:35:50.171 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 10:35:50.174 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556073350174 with initial instances count: 0
+2019-04-24 10:35:50.186 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556073350186, current=UP, previous=STARTING]
+2019-04-24 10:35:50.271 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 10:35:50.286 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 10:35:50.297 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 10:35:50.324 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 11.647 seconds (JVM running for 14.599)
+2019-04-24 10:35:52.563 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 10:35:52.841 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556073352841, current=DOWN, previous=UP]
+2019-04-24 10:35:52.841 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-24 10:35:52.841 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 10:35:52.920 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 10:36:20.171 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 10:36:20.171 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 10:36:20.171 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 10:36:20.171 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 10:36:20.171 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 10:36:20.171 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 10:36:20.171 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 10:36:20.226 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 11:18:26.487 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 11:18:28.712 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 11:18:28.714 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 11:18:28.856 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 11:18:30.280 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 11:18:30.280 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 11:18:30.286 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 11:18:30.286 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 11:18:33.012 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 11:18:33.233 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 11:18:33.588 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 11:18:33.588 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 11:18:33.719 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 11:18:33.719 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 11:18:33.985 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 11:18:34.094 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 11:18:34.095 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 11:18:34.095 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 11:18:34.095 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 11:18:34.095 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 11:18:34.095 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 11:18:34.095 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 11:18:34.362 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 11:18:34.363 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 11:18:34.365 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 11:18:34.368 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556075914368 with initial instances count: 0
+2019-04-24 11:18:34.379 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556075914379, current=UP, previous=STARTING]
+2019-04-24 11:18:34.462 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 11:18:34.475 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 11:18:34.486 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 11:18:34.512 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 10.169 seconds (JVM running for 13.525)
+2019-04-24 11:18:36.648 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 11:18:36.837 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556075916837, current=DOWN, previous=UP]
+2019-04-24 11:18:36.838 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-24 11:18:36.838 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 11:18:36.923 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 11:19:04.365 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 11:19:04.366 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 11:19:04.366 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 11:19:04.366 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 11:19:04.366 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 11:19:04.366 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 11:19:04.366 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 11:19:04.422 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 11:23:34.103 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:10:09.425 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 14:10:11.741 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 14:10:11.742 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 14:10:11.892 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:10:13.338 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 14:10:13.338 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 14:10:13.342 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 14:10:13.343 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 14:10:16.117 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 14:10:16.324 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 14:10:16.659 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 14:10:16.659 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 14:10:16.785 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 14:10:16.786 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 14:10:17.038 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:10:17.155 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 14:10:17.156 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 14:10:17.156 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 14:10:17.156 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 14:10:17.156 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 14:10:17.156 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 14:10:17.156 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 14:10:17.340 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 14:10:17.342 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 14:10:17.345 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 14:10:17.348 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556086217348 with initial instances count: 1
+2019-04-24 14:10:17.359 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556086217359, current=UP, previous=STARTING]
+2019-04-24 14:10:17.449 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 14:10:17.464 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 14:10:17.475 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 14:10:17.503 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 10.503 seconds (JVM running for 11.83)
+2019-04-24 14:10:19.006 [RMI TCP Connection(6)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 14:10:19.191 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556086219191, current=DOWN, previous=UP]
+2019-04-24 14:10:19.191 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-24 14:10:19.191 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 14:10:19.224 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 14:15:17.163 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:20:17.170 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:25:17.176 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:30:17.184 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:32:56.803 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 14:32:59.242 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 14:32:59.243 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 14:32:59.388 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:33:00.796 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 14:33:00.796 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 14:33:00.801 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 14:33:00.802 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 14:33:03.618 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 14:33:03.860 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 14:33:04.199 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 14:33:04.199 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 14:33:04.337 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 14:33:04.337 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 14:33:04.605 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:33:04.724 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 14:33:04.724 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 14:33:04.725 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 14:33:04.725 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 14:33:04.725 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 14:33:04.725 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 14:33:04.725 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 14:33:04.911 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 14:33:04.912 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 14:33:04.916 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 14:33:04.920 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556087584919 with initial instances count: 0
+2019-04-24 14:33:04.931 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556087584931, current=UP, previous=STARTING]
+2019-04-24 14:33:05.012 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 14:33:05.024 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 14:33:05.035 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 14:33:05.063 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 11.439 seconds (JVM running for 13.063)
+2019-04-24 14:33:06.298 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 14:33:06.518 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556087586518, current=DOWN, previous=UP]
+2019-04-24 14:33:06.519 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-24 14:33:06.519 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 14:33:06.604 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 14:33:34.914 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 14:33:34.915 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 14:33:34.915 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 14:33:34.915 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 14:33:34.915 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 14:33:34.915 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 14:33:34.915 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 14:33:34.953 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 14:38:04.734 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:46:28.080 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 14:46:30.483 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 14:46:30.484 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 14:46:30.660 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:46:32.177 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 14:46:32.178 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 14:46:32.183 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 14:46:32.184 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 14:46:35.097 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 14:46:35.308 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 14:46:35.663 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 14:46:35.663 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 14:46:35.792 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 14:46:35.792 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 14:46:36.069 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:46:36.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 14:46:36.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 14:46:36.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 14:46:36.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 14:46:36.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 14:46:36.184 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 14:46:36.184 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 14:46:36.375 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 14:46:36.377 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 14:46:36.381 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 14:46:36.385 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556088396385 with initial instances count: 0
+2019-04-24 14:46:36.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556088396418, current=UP, previous=STARTING]
+2019-04-24 14:46:36.421 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 14:46:36.577 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 14:46:36.596 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 14:46:36.599 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 14:46:36.612 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 14:46:36.645 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 10.925 seconds (JVM running for 13.482)
+2019-04-24 14:46:38.441 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 14:47:06.377 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 14:47:06.377 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 14:47:06.377 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 14:47:06.377 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 14:47:06.377 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 14:47:06.377 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 14:47:06.377 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 14:47:06.490 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 14:48:06.348 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-24 14:48:06.420 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 14:48:06.420 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 14:48:06.420 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 14:48:06.422 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-04-24 14:48:06.422 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='saf', phone='af123', email='asf', password='123456'}]
+2019-04-24 14:48:06.422 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 14:48:06.430 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 14:48:06.430 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 14:48:06.430 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 14:48:06.430 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.mybatis.BaseDao.save(Object,String)
+2019-04-24 14:48:06.430 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='saf', phone='af123', email='asf', password='E10ADC3949BA59ABBE56E057F20F883E'}, mb_user]
+2019-04-24 14:48:06.430 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 14:48:06.639 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 14:48:06.641 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 14:48:06.642 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 14:48:06.652 [http-nio-8762-exec-1] INFO  com.xiaoxiong.api.service.impl.UserServiceImpl - ###regist() 注册发送邮件报文mailMessage:{"header":{"interfaceType":"sms_mail"},"content":{"userName":"saf","email":"asf"}}
+2019-04-24 14:48:06.653 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 14:48:06.653 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 14:48:06.653 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 14:48:06.654 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.mq.RegisterMailboxProducer.send(Destination,String)
+2019-04-24 14:48:06.654 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[queue://mail_queue, {"header":{"interfaceType":"sms_mail"},"content":{"userName":"saf","email":"asf"}}]
+2019-04-24 14:48:06.654 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 14:48:06.876 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 14:48:06.876 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 14:48:06.876 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 14:48:06.878 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 14:48:06.880 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-04-24 14:48:06.880 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 14:53:12.801 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 14:53:15.056 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 14:53:15.057 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 14:53:15.312 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:53:16.697 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 14:53:16.698 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 14:53:16.703 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 14:53:16.703 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 14:53:19.456 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 14:53:19.670 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 14:53:20.013 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 14:53:20.013 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 14:53:20.137 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 14:53:20.137 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 14:53:20.411 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 14:53:20.515 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 14:53:20.515 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 14:53:20.515 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 14:53:20.515 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 14:53:20.515 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 14:53:20.515 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 14:53:20.515 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 14:53:20.806 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 14:53:20.807 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 14:53:20.809 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 14:53:20.813 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556088800813 with initial instances count: 0
+2019-04-24 14:53:20.825 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556088800825, current=UP, previous=STARTING]
+2019-04-24 14:53:20.922 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 14:53:20.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 14:53:20.949 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 14:53:20.977 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 10.786 seconds (JVM running for 12.095)
+2019-04-24 14:53:22.138 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 14:53:22.330 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556088802330, current=DOWN, previous=UP]
+2019-04-24 14:53:22.331 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-24 14:53:22.331 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 14:53:22.413 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 14:53:50.807 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 14:53:50.807 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 14:53:50.808 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 14:53:50.808 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 14:53:50.808 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 14:53:50.808 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 14:53:50.808 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 14:53:50.855 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 14:58:20.523 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 15:03:20.529 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 15:08:20.534 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 15:13:20.541 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 15:59:14.686 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 15:59:17.044 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 15:59:17.045 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 15:59:17.220 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 15:59:18.749 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 15:59:18.750 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 15:59:18.756 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 15:59:18.757 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 15:59:22.066 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 15:59:22.332 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 15:59:22.776 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 15:59:22.776 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 15:59:22.917 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 15:59:22.917 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 15:59:23.196 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 15:59:23.317 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 15:59:23.318 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 15:59:23.318 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 15:59:23.318 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 15:59:23.319 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 15:59:23.319 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 15:59:23.319 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 15:59:23.622 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 15:59:23.624 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 15:59:23.628 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 15:59:23.636 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556092763636 with initial instances count: 0
+2019-04-24 15:59:23.651 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556092763651, current=UP, previous=STARTING]
+2019-04-24 15:59:23.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 15:59:23.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 15:59:23.778 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 15:59:23.810 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 11.417 seconds (JVM running for 12.914)
+2019-04-24 15:59:23.950 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 15:59:24.173 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 15:59:24.458 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 15:59:53.625 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 15:59:53.625 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 15:59:53.625 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 15:59:53.626 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 15:59:53.626 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 15:59:53.626 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 15:59:53.626 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 15:59:53.673 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 16:04:23.327 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 16:09:23.335 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 16:14:23.342 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 16:19:23.348 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 16:20:12.366 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-24 16:20:12.444 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:20:12.445 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 16:20:12.445 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:20:12.447 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-04-24 16:20:12.447 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='小熊', phone='18720919202', email='875110381@qq.com', password='123456'}]
+2019-04-24 16:20:12.447 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:20:12.456 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:20:12.456 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 16:20:12.456 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:20:12.456 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.mybatis.BaseDao.save(Object,String)
+2019-04-24 16:20:12.456 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='小熊', phone='18720919202', email='875110381@qq.com', password='E10ADC3949BA59ABBE56E057F20F883E'}, mb_user]
+2019-04-24 16:20:12.456 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:20:12.654 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:20:12.655 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 16:20:12.655 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:20:12.660 [http-nio-8762-exec-1] INFO  com.xiaoxiong.api.service.impl.UserServiceImpl - ###regist() 注册发送邮件报文mailMessage:{"header":{"interfaceType":"sms_mail"},"content":{"userName":"小熊","email":"875110381@qq.com"}}
+2019-04-24 16:20:12.660 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:20:12.660 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 16:20:12.660 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:20:12.660 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.mq.RegisterMailboxProducer.send(Destination,String)
+2019-04-24 16:20:12.660 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[queue://mail_queue, {"header":{"interfaceType":"sms_mail"},"content":{"userName":"小熊","email":"875110381@qq.com"}}]
+2019-04-24 16:20:12.660 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:20:12.751 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:20:12.751 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 16:20:12.751 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:20:12.753 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:20:12.754 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-04-24 16:20:12.755 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:24:23.411 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 16:29:12.601 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:29:12.601 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:29:12.601 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:29:12.601 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 16:29:12.601 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='null', phone='18720919202', email='null', password='123456'}]
+2019-04-24 16:29:12.601 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:29:12.601 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:29:12.601 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:29:12.602 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:29:12.602 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserPhoneAndPwd(String,String)
+2019-04-24 16:29:12.602 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[18720919202, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 16:29:12.602 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:29:12.664 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:29:12.678 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556094012000,"email":"875110381@qq.com","id":59,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"18720919202","updated":1556094012000,"userName":"小熊"}
+2019-04-24 16:29:12.679 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:29:12.679 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:29:12.679 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:29:12.679 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:29:12.679 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 16:29:12.679 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 16:29:12.679 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:29:12.682 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:29:12.682 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"27a5fde6-4bed-4a6d-a89d-adc8e580b358"
+2019-04-24 16:29:12.682 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:29:12.682 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:29:12.683 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:29:12.683 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:29:12.683 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 16:29:12.683 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[27a5fde6-4bed-4a6d-a89d-adc8e580b358, 59, 7776000]
+2019-04-24 16:29:12.683 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:29:12.834 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:29:12.834 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 16:29:12.834 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:29:12.834 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:29:12.835 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"27a5fde6-4bed-4a6d-a89d-adc8e580b358"}
+2019-04-24 16:29:12.835 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:29:23.417 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='null', phone='18720919202', email='null', password='123456'}]
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserPhoneAndPwd(String,String)
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[18720919202, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 16:30:07.576 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:30:07.578 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:30:07.578 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556094012000,"email":"875110381@qq.com","id":59,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"18720919202","updated":1556094012000,"userName":"小熊"}
+2019-04-24 16:30:07.578 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:30:07.578 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"a98c8158-0830-410e-a15b-06456a6d70c9"
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:30:07.579 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:30:07.580 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:30:07.580 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 16:30:07.580 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[a98c8158-0830-410e-a15b-06456a6d70c9, 59, 7776000]
+2019-04-24 16:30:07.580 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:30:07.582 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:30:07.582 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 16:30:07.582 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:30:07.582 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:30:07.582 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"a98c8158-0830-410e-a15b-06456a6d70c9"}
+2019-04-24 16:30:07.582 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:33:28.763 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='null', phone='18720919202', email='null', password='123456'}]
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserPhoneAndPwd(String,String)
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[18720919202, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 16:33:28.764 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:33:28.766 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:33:28.766 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556094012000,"email":"875110381@qq.com","id":59,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"18720919202","updated":1556094012000,"userName":"小熊"}
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"77284613-58b0-41e3-a31f-2ae0ce222f89"
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[77284613-58b0-41e3-a31f-2ae0ce222f89, 59, 7776000]
+2019-04-24 16:33:28.767 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 16:33:28.768 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:33:28.768 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 16:33:28.768 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:33:28.768 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:33:28.768 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"77284613-58b0-41e3-a31f-2ae0ce222f89"}
+2019-04-24 16:33:28.768 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 16:34:23.647 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 16:36:05.990 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 16:36:08.375 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 16:36:08.376 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 16:36:08.554 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 16:36:10.042 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 16:36:10.043 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 16:36:10.048 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 16:36:10.049 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 16:36:12.986 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 16:36:13.213 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 16:36:13.566 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 16:36:13.566 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 16:36:13.732 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 16:36:13.732 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 16:36:14.023 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 16:36:14.136 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 16:36:14.136 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 16:36:14.137 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 16:36:14.137 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 16:36:14.137 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 16:36:14.137 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 16:36:14.137 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 16:36:14.417 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 16:36:14.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 16:36:14.420 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 16:36:14.424 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556094974423 with initial instances count: 0
+2019-04-24 16:36:14.437 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556094974437, current=UP, previous=STARTING]
+2019-04-24 16:36:14.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 16:36:14.548 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 16:36:14.559 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 16:36:14.587 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 11.048 seconds (JVM running for 12.462)
+2019-04-24 16:36:14.715 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 16:36:14.910 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 16:36:15.021 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 16:36:44.418 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 16:36:44.418 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 16:36:44.418 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 16:36:44.418 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 16:36:44.418 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 16:36:44.418 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 16:36:44.418 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 16:36:44.483 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 16:41:14.144 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:18:34.753 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 17:18:37.875 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 17:18:37.877 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 17:18:38.025 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:18:40.795 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 17:18:40.795 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 17:18:40.801 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 17:18:40.801 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 17:18:44.139 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 17:18:44.377 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 17:18:46.206 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 17:18:46.207 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 17:18:46.340 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 17:18:46.340 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 17:18:46.745 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:18:46.875 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 17:18:46.875 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 17:18:46.875 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 17:18:46.875 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 17:18:46.875 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 17:18:46.875 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 17:18:46.876 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 17:18:47.477 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 17:18:47.478 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 17:18:47.481 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 17:18:47.485 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556097527485 with initial instances count: 0
+2019-04-24 17:18:47.497 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556097527496, current=UP, previous=STARTING]
+2019-04-24 17:18:47.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 17:18:47.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 17:18:47.655 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 17:18:47.683 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 15.113 seconds (JVM running for 17.201)
+2019-04-24 17:18:51.560 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 17:18:53.258 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556097533258, current=DOWN, previous=UP]
+2019-04-24 17:18:53.259 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-24 17:18:53.259 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 17:18:54.684 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 17:19:17.478 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 17:19:17.478 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 17:19:17.478 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 17:19:17.478 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 17:19:17.479 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 17:19:17.479 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 17:19:17.479 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 17:19:17.508 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 17:22:38.218 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 17:22:41.362 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 17:22:41.363 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 17:22:41.543 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:22:42.927 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 17:22:42.927 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 17:22:42.932 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 17:22:42.932 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 17:22:45.765 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 17:22:45.974 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 17:22:46.354 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 17:22:46.354 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 17:22:46.496 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 17:22:46.496 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 17:22:46.782 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:22:46.894 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 17:22:46.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 17:22:46.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 17:22:46.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 17:22:46.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 17:22:46.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 17:22:46.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 17:22:47.108 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 17:22:47.110 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 17:22:47.112 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 17:22:47.118 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556097767118 with initial instances count: 2
+2019-04-24 17:22:47.129 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556097767129, current=UP, previous=STARTING]
+2019-04-24 17:22:47.216 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 17:22:47.229 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 17:22:47.241 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 17:22:47.266 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 12.666 seconds (JVM running for 14.114)
+2019-04-24 17:22:48.545 [RMI TCP Connection(6)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 17:22:48.745 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 17:22:48.781 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 17:27:47.187 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:32:47.193 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:37:47.345 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:42:47.359 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:47:47.365 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:51:53.204 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556099513204, current=DOWN, previous=UP]
+2019-04-24 17:51:53.205 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 17:51:53.216 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 17:52:47.370 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 17:57:47.376 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:05:14.639 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 20:05:16.886 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 20:05:16.886 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 20:05:17.026 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 20:05:18.695 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 20:05:18.695 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 20:05:18.695 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 20:05:18.695 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 20:05:21.238 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 20:05:21.425 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 20:05:21.940 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 20:05:21.940 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 20:05:22.065 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 20:05:22.065 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 20:05:22.314 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:05:22.424 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 20:05:22.424 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 20:05:22.424 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 20:05:22.424 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 20:05:22.424 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 20:05:22.424 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 20:05:22.424 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 20:05:22.720 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 20:05:22.720 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 20:05:22.720 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 20:05:22.736 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556107522736 with initial instances count: 0
+2019-04-24 20:05:22.736 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556107522736, current=UP, previous=STARTING]
+2019-04-24 20:05:22.814 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 20:05:22.829 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 20:05:22.845 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 20:05:22.876 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 10.327 seconds (JVM running for 12.107)
+2019-04-24 20:05:25.138 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 20:05:25.419 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556107525419, current=DOWN, previous=UP]
+2019-04-24 20:05:25.419 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-24 20:05:25.419 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 20:05:25.481 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 20:05:52.742 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 20:05:52.742 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 20:05:52.742 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 20:05:52.742 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 20:05:52.742 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 20:05:52.742 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 20:05:52.742 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 20:05:52.789 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 20:10:22.439 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:13:34.099 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-24 20:13:36.111 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-24 20:13:36.127 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-24 20:13:36.283 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 20:13:37.578 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 20:13:37.578 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 20:13:37.578 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-24 20:13:37.578 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-24 20:13:40.167 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-24 20:13:40.386 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-24 20:13:40.744 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-24 20:13:40.744 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-24 20:13:40.854 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-24 20:13:40.854 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-24 20:13:41.103 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:13:41.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 20:13:41.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 20:13:41.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 20:13:41.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 20:13:41.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 20:13:41.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-24 20:13:41.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 20:13:41.478 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 20:13:41.478 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-24 20:13:41.478 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-24 20:13:41.478 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1556108021478 with initial instances count: 0
+2019-04-24 20:13:41.493 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1556108021493, current=UP, previous=STARTING]
+2019-04-24 20:13:41.571 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-24 20:13:41.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-24 20:13:41.587 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 20:13:41.618 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 9.75 seconds (JVM running for 11.131)
+2019-04-24 20:13:41.852 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 20:13:42.070 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-24 20:13:42.382 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-24 20:14:11.496 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-24 20:14:11.496 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-24 20:14:11.496 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-24 20:14:11.496 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-24 20:14:11.496 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-24 20:14:11.496 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-24 20:14:11.496 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-24 20:14:11.543 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-24 20:15:56.947 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-24 20:15:57.014 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:15:57.014 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 20:15:57.014 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:15:57.017 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-04-24 20:15:57.017 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞霞', phone='1234567890', email='875110333@qq.com', password='123456'}]
+2019-04-24 20:15:57.017 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:15:57.024 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:15:57.024 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 20:15:57.024 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:15:57.024 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.mybatis.BaseDao.save(Object,String)
+2019-04-24 20:15:57.024 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞霞', phone='1234567890', email='875110333@qq.com', password='E10ADC3949BA59ABBE56E057F20F883E'}, mb_user]
+2019-04-24 20:15:57.024 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:15:57.142 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:15:57.144 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 20:15:57.144 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:15:57.154 [http-nio-8762-exec-1] INFO  com.xiaoxiong.api.service.impl.UserServiceImpl - ###regist() 注册发送邮件报文mailMessage:{"header":{"interfaceType":"sms_mail"},"content":{"userName":"霞霞","email":"875110333@qq.com"}}
+2019-04-24 20:15:57.154 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:15:57.164 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 20:15:57.164 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:15:57.164 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.mq.RegisterMailboxProducer.send(Destination,String)
+2019-04-24 20:15:57.164 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[queue://mail_queue, {"header":{"interfaceType":"sms_mail"},"content":{"userName":"霞霞","email":"875110333@qq.com"}}]
+2019-04-24 20:15:57.169 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:15:57.322 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:15:57.322 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 20:15:57.322 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:15:57.322 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:15:57.324 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-04-24 20:15:57.324 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞霞', phone='null', email='null', password='123456'}]
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserNameAndPwd(String,String)
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[霞霞, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 20:16:25.534 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:16:25.544 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:16:25.559 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556108157000,"email":"875110333@qq.com","id":60,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"1234567890","updated":1556108157000,"userName":"霞霞"}
+2019-04-24 20:16:25.559 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:16:25.559 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:16:25.559 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:16:25.559 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:16:25.559 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 20:16:25.559 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 20:16:25.559 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"18c795e7-3fdc-413a-935d-ab9524b4c081"
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[18c795e7-3fdc-413a-935d-ab9524b4c081, 60, 7776000]
+2019-04-24 20:16:25.564 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:16:25.594 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:16:25.594 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 20:16:25.594 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:16:25.594 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:16:25.594 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"18c795e7-3fdc-413a-935d-ab9524b4c081"}
+2019-04-24 20:16:25.594 [http-nio-8762-exec-3] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:17:47.160 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='qq', phone='null', email='null', password='123456'}]
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserNameAndPwd(String,String)
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[qq, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 20:17:47.163 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:17:47.165 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:17:47.165 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 20:17:47.165 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:17:47.165 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:17:47.165 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误！","code":500}
+2019-04-24 20:17:47.165 [http-nio-8762-exec-5] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:18:41.249 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞儿', phone='18720919203', email='875110388@qq.com', password='123456'}]
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.mybatis.BaseDao.save(Object,String)
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞儿', phone='18720919203', email='875110388@qq.com', password='E10ADC3949BA59ABBE56E057F20F883E'}, mb_user]
+2019-04-24 20:22:00.660 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.api.service.impl.UserServiceImpl - ###regist() 注册发送邮件报文mailMessage:{"header":{"interfaceType":"sms_mail"},"content":{"userName":"霞儿","email":"875110388@qq.com"}}
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/regist
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.mq.RegisterMailboxProducer.send(Destination,String)
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[queue://mail_queue, {"header":{"interfaceType":"sms_mail"},"content":{"userName":"霞儿","email":"875110388@qq.com"}}]
+2019-04-24 20:22:00.754 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:00.972 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:00.972 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 20:22:00.972 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:00.972 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:00.972 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-04-24 20:22:00.972 [http-nio-8762-exec-7] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞儿', phone='null', email='null', password='123456'}]
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserNameAndPwd(String,String)
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[霞儿, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556108520000,"email":"875110388@qq.com","id":61,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"18720919203","updated":1556108520000,"userName":"霞儿"}
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"3b41c58a-c89d-47cf-8023-efc99c3a1606"
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:35.063 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[3b41c58a-c89d-47cf-8023-efc99c3a1606, 61, 7776000]
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"3b41c58a-c89d-47cf-8023-efc99c3a1606"}
+2019-04-24 20:22:35.079 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:23:41.264 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:28:41.286 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:33:41.294 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞儿', phone='null', email='null', password='123456'}]
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserNameAndPwd(String,String)
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[霞儿, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 20:35:30.703 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556108520000,"email":"875110388@qq.com","id":61,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"18720919203","updated":1556108520000,"userName":"霞儿"}
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:35:30.705 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"c17c485c-01a3-4846-ac2a-dc2a018ae4dc"
+2019-04-24 20:35:30.706 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:35:30.706 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:35:30.706 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 20:35:30.706 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 20:35:30.706 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 20:35:30.706 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[c17c485c-01a3-4846-ac2a-dc2a018ae4dc, 61, 7776000]
+2019-04-24 20:35:30.706 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 20:35:30.707 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:35:30.707 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 20:35:30.707 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:35:30.707 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:35:30.707 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"c17c485c-01a3-4846-ac2a-dc2a018ae4dc"}
+2019-04-24 20:35:30.707 [http-nio-8762-exec-10] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 20:38:41.307 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:43:41.317 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:48:41.350 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:53:41.365 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 20:58:41.377 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 21:03:41.393 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 21:08:41.414 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 21:13:41.425 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞儿', phone='null', email='null', password='123456'}]
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserNameAndPwd(String,String)
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[霞儿, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 21:17:16.262 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556108520000,"email":"875110388@qq.com","id":61,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"18720919203","updated":1556108520000,"userName":"霞儿"}
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"d6549847-ac47-43dc-bdda-1764ea8d1fc8"
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[d6549847-ac47-43dc-bdda-1764ea8d1fc8, 61, 7776000]
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"d6549847-ac47-43dc-bdda-1764ea8d1fc8"}
+2019-04-24 21:17:16.264 [http-nio-8762-exec-2] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:16.951 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:16.951 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:18:16.951 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:18:16.951 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 21:18:16.951 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞儿', phone='null', email='null', password='123456'}]
+2019-04-24 21:18:16.951 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:16.952 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:16.952 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:18:16.952 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:18:16.952 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserNameAndPwd(String,String)
+2019-04-24 21:18:16.952 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[霞儿, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 21:18:16.952 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:16.953 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:16.953 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556108520000,"email":"875110388@qq.com","id":61,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"18720919203","updated":1556108520000,"userName":"霞儿"}
+2019-04-24 21:18:16.953 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:16.953 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:16.953 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:18:16.953 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:18:16.953 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 21:18:16.953 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 21:18:16.954 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:16.954 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:16.954 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"7a39ded5-1bc4-412c-9ed3-dba1bf9f8ee5"
+2019-04-24 21:18:16.954 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:16.954 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:16.954 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:18:16.954 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:18:16.956 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 21:18:16.956 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[7a39ded5-1bc4-412c-9ed3-dba1bf9f8ee5, 61, 7776000]
+2019-04-24 21:18:16.956 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:16.957 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:16.957 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 21:18:16.957 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:16.957 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:16.957 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"7a39ded5-1bc4-412c-9ed3-dba1bf9f8ee5"}
+2019-04-24 21:18:16.957 [http-nio-8762-exec-4] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞儿', phone='null', email='null', password='123456'}]
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:18:28.715 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:18:28.722 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserNameAndPwd(String,String)
+2019-04-24 21:18:28.722 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[霞儿, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 21:18:28.722 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556108520000,"email":"875110388@qq.com","id":61,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"18720919203","updated":1556108520000,"userName":"霞儿"}
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"522911a1-3d02-431f-a691-938a2b23746a"
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:28.725 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:28.726 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:18:28.726 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:18:28.729 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 21:18:28.729 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[522911a1-3d02-431f-a691-938a2b23746a, 61, 7776000]
+2019-04-24 21:18:28.729 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:18:28.730 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:28.730 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 21:18:28.730 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:28.730 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:28.730 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"522911a1-3d02-431f-a691-938a2b23746a"}
+2019-04-24 21:18:28.730 [http-nio-8762-exec-6] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:18:41.517 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[UserEntity{userName='霞霞', phone='null', email='null', password='123456'}]
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:UserEntity com.xiaoxiong.dao.UserDao.getUserNameAndPwd(String,String)
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[霞霞, E10ADC3949BA59ABBE56E057F20F883E]
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"created":1556108157000,"email":"875110333@qq.com","id":60,"password":"E10ADC3949BA59ABBE56E057F20F883E","phone":"1234567890","updated":1556108157000,"userName":"霞霞"}
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:String com.xiaoxiong.common.token.TokenUtils.getToken()
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:"d6864688-d169-4b45-89d0-707e8f1c02ef"
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://SDWM-20190308VM:8762/memberSer/login
+2019-04-24 21:22:46.056 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:POST
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.set(String,Object,Long)
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[d6864688-d169-4b45-89d0-707e8f1c02ef, 60, 7776000]
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"d6864688-d169-4b45-89d0-707e8f1c02ef"}
+2019-04-24 21:22:46.072 [http-nio-8762-exec-8] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------

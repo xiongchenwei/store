@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xiaoxiong-shopp-common" />
+        <module name="xiaoxiong-shopp-euerkaserver" />
+        <module name="xiaoxiong-shopp-member" />
+        <module name="xiaoxiong-shopp-member-api" />
+        <module name="xiaoxiong-shopp-messages" />
+        <module name="xiaoxiong-shopp-mobile-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xiaoxiong-shopp-api" target="1.8" />
+      <module name="xiaoxiong-shopp-common" target="1.7" />
+      <module name="xiaoxiong-shopp-euerkaserver" target="1.7" />
+      <module name="xiaoxiong-shopp-member" target="1.7" />
+      <module name="xiaoxiong-shopp-member-api" target="1.7" />
+      <module name="xiaoxiong-shopp-messages" target="1.7" />
+      <module name="xiaoxiong-shopp-mobile-web" target="1.7" />
+      <module name="xiaoxiong-shopp-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

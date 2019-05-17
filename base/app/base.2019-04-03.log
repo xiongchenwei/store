@@ -1,0 +1,1016 @@
+2019-04-03 14:12:00.473 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-03 14:12:03.969 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-03 14:12:03.970 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-03 14:12:05.129 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 14:12:06.521 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:12:06.522 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:12:06.540 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:12:06.540 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:12:10.643 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-03 14:12:10.941 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-03 14:12:11.442 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:12:11.443 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:12:11.652 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-03 14:12:11.653 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-03 14:12:12.161 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-03 14:12:12.394 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 14:12:12.993 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 14:12:12.994 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 14:12:12.997 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 14:12:12.998 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 14:12:12.998 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-03 14:12:12.998 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 14:12:14.853 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 14:12:14.855 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:12:14.859 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:12:14.865 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1554271934864 with initial instances count: 0
+2019-04-03 14:12:14.887 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554271934887, current=UP, previous=STARTING]
+2019-04-03 14:12:15.522 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-03 14:12:15.547 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-03 14:12:15.762 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-04-03 14:12:15.812 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 14:12:15.870 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 20.793 seconds (JVM running for 24.823)
+2019-04-03 14:12:15.932 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:12:16.017 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:12:16.205 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:1) is starting
+2019-04-03 14:12:16.259 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:1) started
+2019-04-03 14:12:16.260 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:12:16.354 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:12:16.768 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:12:16.769 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:1) is shutting down
+2019-04-03 14:12:16.817 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:1) uptime 0.926 seconds
+2019-04-03 14:12:16.817 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:1) is shutdown
+2019-04-03 14:12:17.826 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554271937826, current=DOWN, previous=UP]
+2019-04-03 14:12:17.826 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-03 14:12:17.826 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-03 14:12:18.024 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-03 14:12:18.028 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:12:18.029 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:2) is starting
+2019-04-03 14:12:18.030 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:2) started
+2019-04-03 14:12:18.030 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:12:18.037 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:12:18.039 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:12:18.060 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:12:18.061 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:2) is shutting down
+2019-04-03 14:12:18.062 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:2) uptime 0.037 seconds
+2019-04-03 14:12:18.063 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:2) is shutdown
+2019-04-03 14:12:44.857 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 14:12:44.857 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 14:12:44.857 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 14:12:44.857 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 14:12:44.857 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 14:12:44.857 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-03 14:12:44.858 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 14:12:44.911 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 14:12:49.069 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:12:49.070 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:3) is starting
+2019-04-03 14:12:49.071 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:12:49.071 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:3) started
+2019-04-03 14:12:49.072 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:12:49.076 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:12:49.092 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:12:49.092 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:3) is shutting down
+2019-04-03 14:12:49.094 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:3) uptime 0.029 seconds
+2019-04-03 14:12:49.094 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:3) is shutdown
+2019-04-03 14:13:20.110 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:13:20.111 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:4) is starting
+2019-04-03 14:13:20.112 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:4) started
+2019-04-03 14:13:20.112 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:13:20.112 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:13:20.115 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:13:20.124 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:13:20.124 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:4) is shutting down
+2019-04-03 14:13:20.126 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:4) uptime 0.020 seconds
+2019-04-03 14:13:20.126 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:4) is shutdown
+2019-04-03 14:13:38.035 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 14:13:39.296 [http-nio-8762-exec-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool] with root cause
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:194)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91)
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:169)
+	at com.xiaoxiong.common.redis.BaseRedisService.set(BaseRedisService.java:38)
+	at com.xiaoxiong.common.redis.BaseRedisService.setString(BaseRedisService.java:23)
+	at com.xiaoxiong.api.service.impl.DomeApiServiceImpl.Dome(DomeApiServiceImpl.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-03 14:13:51.140 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:13:51.148 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:5) is starting
+2019-04-03 14:13:51.153 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:5) started
+2019-04-03 14:13:51.154 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:13:51.156 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:13:51.168 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:13:51.168 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:13:51.172 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:13:51.174 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:5) is shutting down
+2019-04-03 14:13:51.176 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:5) uptime 0.043 seconds
+2019-04-03 14:13:51.176 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:5) is shutdown
+2019-04-03 14:14:22.291 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:14:22.292 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:6) is starting
+2019-04-03 14:14:22.295 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:6) started
+2019-04-03 14:14:22.295 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:14:22.296 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:14:22.308 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:14:22.324 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:14:22.325 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:6) is shutting down
+2019-04-03 14:14:22.327 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:6) uptime 0.040 seconds
+2019-04-03 14:14:22.327 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:6) is shutdown
+2019-04-03 14:14:53.335 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:14:53.337 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:7) is starting
+2019-04-03 14:14:53.338 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:7) started
+2019-04-03 14:14:53.338 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:14:53.340 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:14:53.346 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:14:53.363 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:14:53.363 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:7) is shutting down
+2019-04-03 14:14:53.366 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:7) uptime 0.036 seconds
+2019-04-03 14:14:53.366 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:7) is shutdown
+2019-04-03 14:15:24.375 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:15:24.383 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:8) is starting
+2019-04-03 14:15:24.384 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:8) started
+2019-04-03 14:15:24.385 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:15:24.385 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:15:24.389 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:15:24.401 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:15:24.401 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:8) is shutting down
+2019-04-03 14:15:24.404 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:8) uptime 0.034 seconds
+2019-04-03 14:15:24.404 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-62937-1554271935941-0:8) is shutdown
+2019-04-03 14:16:09.374 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-03 14:16:11.484 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-03 14:16:11.485 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-03 14:16:11.639 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 14:16:12.255 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:16:12.255 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:16:12.260 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:16:12.260 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:16:14.680 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-03 14:16:14.889 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-03 14:16:15.216 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:16:15.217 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:16:15.348 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-03 14:16:15.348 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-03 14:16:15.630 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-03 14:16:15.721 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 14:16:15.722 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 14:16:15.722 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 14:16:15.722 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 14:16:15.722 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 14:16:15.722 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-03 14:16:15.722 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 14:16:15.948 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 14:16:15.950 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:16:15.953 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:16:15.956 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1554272175956 with initial instances count: 1
+2019-04-03 14:16:15.963 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554272175963, current=UP, previous=STARTING]
+2019-04-03 14:16:16.081 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-03 14:16:16.097 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-03 14:16:16.111 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 14:16:16.142 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 9.106 seconds (JVM running for 10.466)
+2019-04-03 14:16:16.161 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-04-03 14:16:16.249 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:16:16.251 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:16:16.407 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:1) is starting
+2019-04-03 14:16:16.412 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:1) started
+2019-04-03 14:16:16.412 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:16:16.446 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:16:16.590 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:16:16.592 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:1) is shutting down
+2019-04-03 14:16:16.609 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:1) uptime 0.414 seconds
+2019-04-03 14:16:16.610 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:1) is shutdown
+2019-04-03 14:16:16.692 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:16:16.694 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:2) is starting
+2019-04-03 14:16:16.701 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:2) started
+2019-04-03 14:16:16.701 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:16:16.705 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:16:16.707 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:16:16.714 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:16:16.715 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:2) is shutting down
+2019-04-03 14:16:16.718 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:2) uptime 0.030 seconds
+2019-04-03 14:16:16.718 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:2) is shutdown
+2019-04-03 14:16:17.656 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554272177656, current=DOWN, previous=UP]
+2019-04-03 14:16:17.657 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-04-03 14:16:17.657 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-03 14:16:17.724 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-03 14:16:17.727 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:16:17.728 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:3) is starting
+2019-04-03 14:16:17.730 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:3) started
+2019-04-03 14:16:17.730 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:16:17.732 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:16:17.742 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:16:17.742 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:16:17.757 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:16:17.758 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:3) is shutting down
+2019-04-03 14:16:17.760 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:3) uptime 0.035 seconds
+2019-04-03 14:16:17.760 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:3) is shutdown
+2019-04-03 14:16:48.765 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:16:48.766 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:4) is starting
+2019-04-03 14:16:48.767 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:4) started
+2019-04-03 14:16:48.767 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:16:48.770 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:16:48.771 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:16:48.780 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:16:48.780 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:4) is shutting down
+2019-04-03 14:16:48.782 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:4) uptime 0.020 seconds
+2019-04-03 14:16:48.782 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:4) is shutdown
+2019-04-03 14:17:19.797 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:17:19.798 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:5) is starting
+2019-04-03 14:17:19.803 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:5) started
+2019-04-03 14:17:19.812 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:17:19.817 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:17:19.830 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:17:19.830 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:17:19.835 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:17:19.835 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:5) is shutting down
+2019-04-03 14:17:19.837 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:5) uptime 0.045 seconds
+2019-04-03 14:17:19.837 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:5) is shutdown
+2019-04-03 14:17:50.843 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:17:50.844 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:6) is starting
+2019-04-03 14:17:50.845 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:6) started
+2019-04-03 14:17:50.845 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:17:50.847 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:17:50.848 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:17:50.860 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:17:50.860 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:6) is shutting down
+2019-04-03 14:17:50.862 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:6) uptime 0.021 seconds
+2019-04-03 14:17:50.862 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:6) is shutdown
+2019-04-03 14:17:52.400 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 14:17:53.475 [http-nio-8762-exec-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool] with root cause
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:194)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91)
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:169)
+	at com.xiaoxiong.common.redis.BaseRedisService.set(BaseRedisService.java:38)
+	at com.xiaoxiong.common.redis.BaseRedisService.setString(BaseRedisService.java:23)
+	at com.xiaoxiong.api.service.impl.DomeApiServiceImpl.Dome(DomeApiServiceImpl.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-03 14:18:21.871 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:18:21.876 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:7) is starting
+2019-04-03 14:18:21.879 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:7) started
+2019-04-03 14:18:21.879 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:18:21.882 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:18:21.891 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:18:21.903 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:18:21.903 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:7) is shutting down
+2019-04-03 14:18:21.904 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:7) uptime 0.039 seconds
+2019-04-03 14:18:21.905 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:7) is shutdown
+2019-04-03 14:18:52.916 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:18:52.921 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:8) is starting
+2019-04-03 14:18:52.922 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:8) started
+2019-04-03 14:18:52.922 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:18:52.926 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:18:52.930 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:18:52.945 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:18:52.946 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:8) is shutting down
+2019-04-03 14:18:52.948 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:8) uptime 0.038 seconds
+2019-04-03 14:18:52.948 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:8) is shutdown
+2019-04-03 14:19:23.956 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:19:23.959 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:9) is starting
+2019-04-03 14:19:23.960 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:9) started
+2019-04-03 14:19:23.960 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:19:23.967 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:19:23.968 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:19:23.983 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:19:23.984 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:9) is shutting down
+2019-04-03 14:19:23.987 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:9) uptime 0.037 seconds
+2019-04-03 14:19:23.987 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:9) is shutdown
+2019-04-03 14:19:54.995 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:19:54.997 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:10) is starting
+2019-04-03 14:19:54.998 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:10) started
+2019-04-03 14:19:54.998 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:19:55.002 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:19:55.004 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:19:55.020 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:19:55.020 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:10) is shutting down
+2019-04-03 14:19:55.023 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:10) uptime 0.035 seconds
+2019-04-03 14:19:55.023 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:10) is shutdown
+2019-04-03 14:20:26.028 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:20:26.029 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:11) is starting
+2019-04-03 14:20:26.032 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:11) started
+2019-04-03 14:20:26.032 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:20:26.034 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:20:26.054 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:20:26.054 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:20:26.059 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:20:26.059 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:11) is shutting down
+2019-04-03 14:20:26.064 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:11) uptime 0.038 seconds
+2019-04-03 14:20:26.064 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:11) is shutdown
+2019-04-03 14:20:57.085 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:20:57.087 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:12) is starting
+2019-04-03 14:20:57.091 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:12) started
+2019-04-03 14:20:57.092 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:20:57.092 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:20:57.098 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:20:57.115 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:20:57.115 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:12) is shutting down
+2019-04-03 14:20:57.117 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:12) uptime 0.042 seconds
+2019-04-03 14:20:57.117 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:12) is shutdown
+2019-04-03 14:21:15.734 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-03 14:21:28.145 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:21:28.148 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:13) is starting
+2019-04-03 14:21:28.149 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:13) started
+2019-04-03 14:21:28.150 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:21:28.158 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:21:28.159 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:21:28.171 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:21:28.171 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:13) is shutting down
+2019-04-03 14:21:28.172 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:13) uptime 0.033 seconds
+2019-04-03 14:21:28.173 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:13) is shutdown
+2019-04-03 14:21:59.179 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:21:59.182 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:14) is starting
+2019-04-03 14:21:59.182 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:14) started
+2019-04-03 14:21:59.182 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:21:59.184 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:21:59.186 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:21:59.193 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:21:59.193 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:14) is shutting down
+2019-04-03 14:21:59.194 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:14) uptime 0.018 seconds
+2019-04-03 14:21:59.195 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:14) is shutdown
+2019-04-03 14:22:30.207 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:22:30.210 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:15) is starting
+2019-04-03 14:22:30.210 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:15) started
+2019-04-03 14:22:30.210 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:22:30.216 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:22:30.219 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:22:30.238 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:22:30.238 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:15) is shutting down
+2019-04-03 14:22:30.241 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:15) uptime 0.039 seconds
+2019-04-03 14:22:30.241 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:15) is shutdown
+2019-04-03 14:23:01.255 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:23:01.260 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:16) is starting
+2019-04-03 14:23:01.261 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:16) started
+2019-04-03 14:23:01.261 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:23:01.268 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:23:01.270 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:23:01.285 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:23:01.286 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:16) is shutting down
+2019-04-03 14:23:01.287 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:16) uptime 0.043 seconds
+2019-04-03 14:23:01.288 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-63098-1554272176257-0:16) is shutdown
+2019-04-03 14:46:45.596 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-03 14:46:47.496 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-03 14:46:47.497 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-03 14:46:47.632 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 14:46:48.190 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:46:48.190 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:46:48.195 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:46:48.195 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:46:50.576 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-03 14:46:50.779 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-03 14:46:51.099 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:46:51.099 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:46:51.229 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-03 14:46:51.230 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-03 14:46:51.504 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-03 14:46:51.606 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 14:46:51.606 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 14:46:51.606 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 14:46:51.606 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 14:46:51.606 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 14:46:51.606 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-03 14:46:51.606 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 14:46:51.788 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 14:46:51.790 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:46:51.793 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:46:51.798 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1554274011798 with initial instances count: 0
+2019-04-03 14:46:51.805 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554274011805, current=UP, previous=STARTING]
+2019-04-03 14:46:51.956 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-03 14:46:51.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-03 14:46:51.984 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 14:46:52.002 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-04-03 14:46:52.057 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 8.719 seconds (JVM running for 10.101)
+2019-04-03 14:46:52.086 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:46:52.087 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:46:52.241 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:1) is starting
+2019-04-03 14:46:52.246 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:1) started
+2019-04-03 14:46:52.246 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:46:52.289 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:46:52.430 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:46:52.432 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:1) is shutting down
+2019-04-03 14:46:52.444 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:1) uptime 0.381 seconds
+2019-04-03 14:46:52.444 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:1) is shutdown
+2019-04-03 14:46:52.505 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-03 14:46:52.639 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:46:52.644 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:2) is starting
+2019-04-03 14:46:52.645 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:46:52.645 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:2) started
+2019-04-03 14:46:52.646 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:46:52.648 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-03 14:46:52.651 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:46:52.662 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:46:52.662 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:2) is shutting down
+2019-04-03 14:46:52.665 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:2) uptime 0.063 seconds
+2019-04-03 14:46:52.665 [RMI TCP Connection(10)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:2) is shutdown
+2019-04-03 14:47:21.791 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 14:47:21.792 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 14:47:21.792 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 14:47:21.792 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 14:47:21.792 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 14:47:21.792 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-03 14:47:21.792 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 14:47:21.824 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 14:47:22.672 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:47:22.674 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:3) is starting
+2019-04-03 14:47:22.675 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:3) started
+2019-04-03 14:47:22.675 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:47:22.682 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:47:22.696 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:47:22.724 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:47:22.724 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:3) is shutting down
+2019-04-03 14:47:22.726 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:3) uptime 0.060 seconds
+2019-04-03 14:47:22.727 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:3) is shutdown
+2019-04-03 14:47:52.737 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:47:52.739 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:4) is starting
+2019-04-03 14:47:52.740 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:4) started
+2019-04-03 14:47:52.740 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:47:52.746 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:47:52.749 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:47:52.765 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:47:52.767 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:4) is shutting down
+2019-04-03 14:47:52.770 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:4) uptime 0.038 seconds
+2019-04-03 14:47:52.770 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:4) is shutdown
+2019-04-03 14:48:20.755 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 14:48:20.878 [http-nio-8762-exec-1] INFO  com.xiaoxiong.api.service.impl.DomeApiServiceImpl - 这是日志的输出！
+2019-04-03 14:48:22.779 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:48:22.787 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:5) is starting
+2019-04-03 14:48:22.789 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:5) started
+2019-04-03 14:48:22.789 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:48:22.794 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:48:22.796 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:48:22.803 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:48:22.804 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:5) is shutting down
+2019-04-03 14:48:22.806 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:5) uptime 0.032 seconds
+2019-04-03 14:48:22.806 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:5) is shutdown
+2019-04-03 14:48:52.814 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:48:52.817 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:6) is starting
+2019-04-03 14:48:52.818 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:6) started
+2019-04-03 14:48:52.818 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:48:52.820 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:48:52.824 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:48:52.832 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:48:52.833 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:6) is shutting down
+2019-04-03 14:48:52.834 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:6) uptime 0.025 seconds
+2019-04-03 14:48:52.835 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:6) is shutdown
+2019-04-03 14:49:22.849 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:49:22.853 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:7) is starting
+2019-04-03 14:49:22.853 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:49:22.854 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:7) started
+2019-04-03 14:49:22.854 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:49:22.858 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:49:22.870 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:49:22.870 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:7) is shutting down
+2019-04-03 14:49:22.876 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:7) uptime 0.035 seconds
+2019-04-03 14:49:22.876 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:7) is shutdown
+2019-04-03 14:49:52.884 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:49:52.885 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:8) is starting
+2019-04-03 14:49:52.885 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:8) started
+2019-04-03 14:49:52.886 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:49:52.889 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:49:52.891 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:49:52.903 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:49:52.904 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:8) is shutting down
+2019-04-03 14:49:52.909 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:8) uptime 0.029 seconds
+2019-04-03 14:49:52.909 [ActiveMQ VMTransport: vm://localhost#17-1] ERROR org.apache.activemq.thread.TaskRunnerFactory - Error in thread 'ActiveMQ VMTransport: vm://localhost#17-1'
+org.apache.activemq.broker.BrokerStoppedException: Broker BrokerService[localhost] is being stopped
+	at org.apache.activemq.broker.TransportConnection$1.onCommand(TransportConnection.java:205)
+	at org.apache.activemq.transport.ResponseCorrelator.onCommand(ResponseCorrelator.java:116)
+	at org.apache.activemq.transport.MutexTransport.onCommand(MutexTransport.java:50)
+	at org.apache.activemq.transport.vm.VMTransport.iterate(VMTransport.java:273)
+	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:133)
+	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-03 14:49:52.910 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:8) is shutdown
+2019-04-03 14:49:56.295 [http-nio-8762-exec-3] INFO  com.xiaoxiong.api.service.impl.DomeApiServiceImpl - 这是日志的输出！
+2019-04-03 14:50:22.921 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:50:22.924 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:9) is starting
+2019-04-03 14:50:22.929 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:9) started
+2019-04-03 14:50:22.929 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:50:22.928 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:50:22.935 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:50:22.951 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:50:22.951 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:9) is shutting down
+2019-04-03 14:50:22.953 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:9) uptime 0.038 seconds
+2019-04-03 14:50:22.953 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:9) is shutdown
+2019-04-03 14:50:52.959 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:50:52.959 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:10) is starting
+2019-04-03 14:50:52.960 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:10) started
+2019-04-03 14:50:52.960 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:50:52.963 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:50:52.965 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:50:52.975 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:50:52.975 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:10) is shutting down
+2019-04-03 14:50:53.116 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:10) uptime 0.160 seconds
+2019-04-03 14:50:53.117 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:10) is shutdown
+2019-04-03 14:51:23.124 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:51:23.124 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:11) is starting
+2019-04-03 14:51:23.127 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:11) started
+2019-04-03 14:51:23.127 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:51:23.129 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:51:23.152 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:51:23.153 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:51:23.159 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:51:23.159 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:11) is shutting down
+2019-04-03 14:51:23.161 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:11) uptime 0.040 seconds
+2019-04-03 14:51:23.162 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:11) is shutdown
+2019-04-03 14:51:27.339 [http-nio-8762-exec-5] INFO  com.xiaoxiong.api.service.impl.DomeApiServiceImpl - 这是日志的输出！
+2019-04-03 14:51:35.828 [http-nio-8762-exec-7] INFO  com.xiaoxiong.api.service.impl.DomeApiServiceImpl - 这是日志的输出！
+2019-04-03 14:51:51.617 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-03 14:51:53.170 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:51:53.179 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:12) is starting
+2019-04-03 14:51:53.185 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:12) started
+2019-04-03 14:51:53.185 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:51:53.187 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:51:53.195 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:51:53.203 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:51:53.203 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:12) is shutting down
+2019-04-03 14:51:53.205 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:12) uptime 0.040 seconds
+2019-04-03 14:51:53.206 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64652-1554274012093-0:12) is shutdown
+2019-04-03 14:52:44.600 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-03 14:52:46.681 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-03 14:52:46.683 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-03 14:52:46.840 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 14:52:47.518 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:52:47.518 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:52:47.526 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 14:52:47.526 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 14:52:50.010 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-03 14:52:50.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-03 14:52:50.533 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-03 14:52:50.533 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-03 14:52:50.666 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-03 14:52:50.667 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-03 14:52:50.949 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-03 14:52:51.040 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 14:52:51.040 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 14:52:51.040 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 14:52:51.040 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 14:52:51.040 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 14:52:51.040 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-03 14:52:51.040 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 14:52:51.278 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 14:52:51.282 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-03 14:52:51.286 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 14:52:51.290 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1554274371290 with initial instances count: 1
+2019-04-03 14:52:51.298 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554274371298, current=UP, previous=STARTING]
+2019-04-03 14:52:51.423 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-03 14:52:51.441 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-03 14:52:51.454 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 14:52:51.514 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 9.181 seconds (JVM running for 10.613)
+2019-04-03 14:52:51.533 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-04-03 14:52:51.590 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:52:51.591 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:52:51.793 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:1) is starting
+2019-04-03 14:52:51.806 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:1) started
+2019-04-03 14:52:51.807 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:52:51.875 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:52:51.947 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:52:51.948 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:1) is shutting down
+2019-04-03 14:52:51.959 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:1) uptime 0.390 seconds
+2019-04-03 14:52:51.959 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:1) is shutdown
+2019-04-03 14:52:51.989 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-03 14:52:52.037 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-03 14:52:52.042 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:52:52.043 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:2) is starting
+2019-04-03 14:52:52.044 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:2) started
+2019-04-03 14:52:52.044 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:52:52.047 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:52:52.055 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:52:52.063 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:52:52.063 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:2) is shutting down
+2019-04-03 14:52:52.065 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:2) uptime 0.027 seconds
+2019-04-03 14:52:52.066 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:2) is shutdown
+2019-04-03 14:53:22.077 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:53:22.080 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:3) is starting
+2019-04-03 14:53:22.082 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:3) started
+2019-04-03 14:53:22.083 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:53:22.086 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:53:22.089 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:53:22.105 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:53:22.105 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:3) is shutting down
+2019-04-03 14:53:22.107 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:3) uptime 0.038 seconds
+2019-04-03 14:53:22.107 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:3) is shutdown
+2019-04-03 14:53:37.745 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 14:53:37.816 [http-nio-8762-exec-1] INFO  com.xiaoxiong.api.service.impl.DomeApiServiceImpl - 这是日志的输出[你好哈]
+2019-04-03 14:53:52.118 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:53:52.119 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:4) is starting
+2019-04-03 14:53:52.136 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:4) started
+2019-04-03 14:53:52.136 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:53:52.139 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:53:52.139 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:53:52.149 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:53:52.150 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:4) is shutting down
+2019-04-03 14:53:52.152 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:4) uptime 0.039 seconds
+2019-04-03 14:53:52.152 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:4) is shutdown
+2019-04-03 14:54:22.159 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:54:22.160 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:5) is starting
+2019-04-03 14:54:22.160 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:5) started
+2019-04-03 14:54:22.161 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:54:22.163 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:54:22.169 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:54:22.176 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:54:22.176 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:5) is shutting down
+2019-04-03 14:54:22.178 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:5) uptime 0.022 seconds
+2019-04-03 14:54:22.178 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:5) is shutdown
+2019-04-03 14:54:52.186 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:54:52.190 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:6) is starting
+2019-04-03 14:54:52.191 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:6) started
+2019-04-03 14:54:52.192 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:54:52.193 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:54:52.197 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:54:52.213 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:54:52.213 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:6) is shutting down
+2019-04-03 14:54:52.217 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:6) uptime 0.034 seconds
+2019-04-03 14:54:52.217 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:6) is shutdown
+2019-04-03 14:55:22.224 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 14:55:22.226 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:7) is starting
+2019-04-03 14:55:22.226 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:7) started
+2019-04-03 14:55:22.226 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 14:55:22.227 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 14:55:22.230 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 14:55:22.238 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 14:55:22.238 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:7) is shutting down
+2019-04-03 14:55:22.240 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:7) uptime 0.019 seconds
+2019-04-03 14:55:22.241 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-64818-1554274371596-0:7) is shutdown
+2019-04-03 15:38:27.899 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-03 15:38:30.149 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-03 15:38:30.150 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-03 15:38:30.296 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 15:38:31.023 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 15:38:31.023 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 15:38:31.029 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 15:38:31.029 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 15:38:33.985 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-03 15:38:34.259 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-03 15:38:34.641 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-03 15:38:34.641 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-03 15:38:34.775 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-03 15:38:34.775 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-03 15:38:35.066 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-03 15:38:35.161 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 15:38:35.161 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 15:38:35.161 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 15:38:35.161 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 15:38:35.161 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 15:38:35.161 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-03 15:38:35.161 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 15:38:35.440 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 15:38:35.441 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-03 15:38:35.443 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 15:38:35.447 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1554277115447 with initial instances count: 0
+2019-04-03 15:38:35.458 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554277115458, current=UP, previous=STARTING]
+2019-04-03 15:38:35.582 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-03 15:38:35.599 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-03 15:38:35.612 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 15:38:35.643 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 9.883 seconds (JVM running for 11.292)
+2019-04-03 15:38:35.655 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-04-03 15:38:35.706 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:38:35.707 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:38:35.856 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:1) is starting
+2019-04-03 15:38:35.861 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:1) started
+2019-04-03 15:38:35.861 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:38:35.896 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:38:35.943 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:38:35.943 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:1) is shutting down
+2019-04-03 15:38:35.950 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:1) uptime 0.267 seconds
+2019-04-03 15:38:35.950 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:1) is shutdown
+2019-04-03 15:38:35.977 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-03 15:38:36.084 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-03 15:38:36.090 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:38:36.091 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:2) is starting
+2019-04-03 15:38:36.092 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:2) started
+2019-04-03 15:38:36.093 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:38:36.095 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:38:36.097 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:38:36.150 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:38:36.151 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:2) is shutting down
+2019-04-03 15:38:36.163 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:2) uptime 0.077 seconds
+2019-04-03 15:38:36.167 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:2) is shutdown
+2019-04-03 15:38:36.359 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:38:36.363 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:3) is starting
+2019-04-03 15:38:36.364 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:3) started
+2019-04-03 15:38:36.364 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:38:36.364 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:38:36.367 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:38:36.375 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:38:36.376 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:3) is shutting down
+2019-04-03 15:38:36.378 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:3) uptime 0.023 seconds
+2019-04-03 15:38:36.378 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:3) is shutdown
+2019-04-03 15:39:05.445 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 15:39:05.445 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 15:39:05.445 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 15:39:05.445 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 15:39:05.445 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 15:39:05.445 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-03 15:39:05.445 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 15:39:05.484 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 15:39:06.180 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:39:06.181 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:4) is starting
+2019-04-03 15:39:06.184 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:4) started
+2019-04-03 15:39:06.184 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:39:06.187 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:39:06.209 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:39:06.209 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:39:06.213 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:39:06.213 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:4) is shutting down
+2019-04-03 15:39:06.216 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:4) uptime 0.037 seconds
+2019-04-03 15:39:06.216 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:4) is shutdown
+2019-04-03 15:39:36.226 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:39:36.228 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:5) is starting
+2019-04-03 15:39:36.229 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:5) started
+2019-04-03 15:39:36.229 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:39:36.236 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:39:36.240 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:39:36.254 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:39:36.254 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:5) is shutting down
+2019-04-03 15:39:36.257 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:5) uptime 0.037 seconds
+2019-04-03 15:39:36.258 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:5) is shutdown
+2019-04-03 15:40:06.269 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:40:06.273 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:6) is starting
+2019-04-03 15:40:06.275 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:6) started
+2019-04-03 15:40:06.277 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:40:06.280 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:40:06.286 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:40:06.300 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:40:06.300 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:6) is shutting down
+2019-04-03 15:40:06.302 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:6) uptime 0.039 seconds
+2019-04-03 15:40:06.302 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:6) is shutdown
+2019-04-03 15:40:15.299 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 15:40:15.385 [http-nio-8762-exec-1] INFO  com.xiaoxiong.api.service.impl.DomeApiServiceImpl - 这是日志的输出[你好哈]
+2019-04-03 15:40:36.309 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:40:36.310 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:7) is starting
+2019-04-03 15:40:36.316 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:7) started
+2019-04-03 15:40:36.316 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:40:36.318 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:40:36.325 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:40:36.331 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:40:36.332 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:7) is shutting down
+2019-04-03 15:40:36.335 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:7) uptime 0.029 seconds
+2019-04-03 15:40:36.336 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49545-1554277115712-0:7) is shutdown
+2019-04-03 15:42:01.936 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-04-03 15:42:04.009 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-04-03 15:42:04.010 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-04-03 15:42:04.166 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 15:42:04.972 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 15:42:04.973 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 15:42:04.978 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-04-03 15:42:04.979 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 15:42:07.810 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-04-03 15:42:08.079 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-03 15:42:08.424 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-03 15:42:08.424 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-03 15:42:08.557 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-03 15:42:08.558 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-03 15:42:08.834 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-03 15:42:08.927 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 15:42:08.928 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 15:42:08.928 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 15:42:08.928 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 15:42:08.928 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 15:42:08.928 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-03 15:42:08.928 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 15:42:09.203 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 15:42:09.204 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-03 15:42:09.207 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-03 15:42:09.210 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1554277329210 with initial instances count: 0
+2019-04-03 15:42:09.220 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554277329220, current=UP, previous=STARTING]
+2019-04-03 15:42:09.351 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-04-03 15:42:09.372 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-04-03 15:42:09.387 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 15:42:09.424 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 10.364 seconds (JVM running for 11.859)
+2019-04-03 15:42:09.455 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-04-03 15:42:09.512 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:42:09.526 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:42:09.696 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:1) is starting
+2019-04-03 15:42:09.702 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:1) started
+2019-04-03 15:42:09.702 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:42:09.739 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:42:09.781 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:42:09.782 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:1) is shutting down
+2019-04-03 15:42:09.829 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:1) uptime 0.345 seconds
+2019-04-03 15:42:09.830 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:1) is shutdown
+2019-04-03 15:42:09.852 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-04-03 15:42:09.929 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-04-03 15:42:09.935 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:42:09.936 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:2) is starting
+2019-04-03 15:42:09.937 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:42:09.937 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:2) started
+2019-04-03 15:42:09.937 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:42:09.940 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:42:09.949 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:42:09.949 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:2) is shutting down
+2019-04-03 15:42:09.950 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:2) uptime 0.020 seconds
+2019-04-03 15:42:09.951 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:2) is shutdown
+2019-04-03 15:42:39.207 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-03 15:42:39.208 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-03 15:42:39.208 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-03 15:42:39.208 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-03 15:42:39.208 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-03 15:42:39.208 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-04-03 15:42:39.209 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-03 15:42:39.259 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-03 15:42:39.960 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-04-03 15:42:39.961 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:3) is starting
+2019-04-03 15:42:39.962 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:3) started
+2019-04-03 15:42:39.962 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-04-03 15:42:39.970 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-04-03 15:42:39.972 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-04-03 15:42:39.986 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-04-03 15:42:39.986 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:3) is shutting down
+2019-04-03 15:42:39.988 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:3) uptime 0.033 seconds
+2019-04-03 15:42:39.988 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:SDWM-20190308VM-49685-1554277329544-0:3) is shutdown
+2019-04-03 15:42:55.087 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 15:42:55.159 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-03 15:42:55.159 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://localhost:8762/dome/domeApi
+2019-04-03 15:42:55.159 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:GET
+2019-04-03 15:42:55.206 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:Map com.xiaoxiong.api.service.impl.DomeApiServiceImpl.Dome()
+2019-04-03 15:42:55.207 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2019-04-03 15:42:55.207 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-03 15:42:55.219 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-03 15:42:55.220 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求地址:http://localhost:8762/dome/domeApi
+2019-04-03 15:42:55.220 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求方式:GET
+2019-04-03 15:42:55.220 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法:void com.xiaoxiong.common.redis.BaseRedisService.setString(String,String)
+2019-04-03 15:42:55.221 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - 请求类方法参数:[name, 张三]
+2019-04-03 15:42:55.221 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-04-03 15:42:55.258 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-03 15:42:55.259 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:null
+2019-04-03 15:42:55.260 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-03 15:42:55.260 [http-nio-8762-exec-1] INFO  com.xiaoxiong.api.service.impl.DomeApiServiceImpl - 这是日志的输出[你好哈]
+2019-04-03 15:42:55.261 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-04-03 15:42:55.267 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-04-03 15:42:55.268 [http-nio-8762-exec-1] INFO  com.xiaoxiong.common.log.LogAspectServiceApi - --------------返回内容----------------

@@ -1,0 +1,37 @@
+2019-04-23 09:06:05.684 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555981565659,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/member/login"}
+2019-04-23 09:06:05.686 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/login,请求失败,http返回code:500
+2019-04-23 09:06:05.703 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555981565701,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/member/login"}
+2019-04-23 09:06:05.703 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/login,请求失败,http返回code:500
+2019-04-23 09:06:05.727 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555981565724,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/member/login"}
+2019-04-23 09:06:05.727 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/login,请求失败,http返回code:500
+2019-04-23 09:12:14.702 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555981934676,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/member/login"}
+2019-04-23 09:12:14.705 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/login,请求失败,http返回code:500
+2019-04-23 09:12:14.719 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555981934716,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/member/login"}
+2019-04-23 09:12:14.719 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/login,请求失败,http返回code:500
+2019-04-23 09:12:14.733 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555981934731,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/member/login"}
+2019-04-23 09:12:14.733 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/login,请求失败,http返回code:500
+2019-04-23 09:28:45.377 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555982925348,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:28:45.380 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:28:45.390 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555982925388,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:28:45.390 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:28:45.398 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555982925396,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:28:45.398 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:38:27.087 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983507054,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:38:27.092 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:38:27.135 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983507132,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:38:27.135 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:38:27.146 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983507143,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:38:27.147 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:42:43.652 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983763633,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:42:43.656 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:42:43.662 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983763660,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:42:43.663 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:42:43.669 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983763667,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:42:43.669 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:44:07.688 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983847658,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:44:07.692 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:44:07.703 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983847700,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:44:07.703 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:44:07.712 [main] ERROR com.xiaoxiong.HttpHelper - {"timestamp":1555983847710,"status":400,"error":"Bad Request","exception":"org.springframework.web.bind.MissingServletRequestParameterException","message":"Required String parameter 'token' is not present","path":"/member/getUser"}
+2019-04-23 09:44:07.712 [main] ERROR com.xiaoxiong.HttpHelper - 请求url=http://127.0.0.1:8762/member/getUser,请求失败,http返回code:400
+2019-04-23 09:48:12.849 [main] INFO  com.xiaoxiong.HttpHelper - [HTTP请求出现异常][Source string may not be null]

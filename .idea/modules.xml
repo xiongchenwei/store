@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/store.iml" filepath="$PROJECT_DIR$/.idea/store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-api/xiaoxiong-shopp-api.iml" filepath="$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-api/xiaoxiong-shopp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-common/xiaoxiong-shopp-common.iml" filepath="$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-common/xiaoxiong-shopp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-euerkaserver/xiaoxiong-shopp-euerkaserver.iml" filepath="$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-euerkaserver/xiaoxiong-shopp-euerkaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-member/xiaoxiong-shopp-member.iml" filepath="$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-member/xiaoxiong-shopp-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-api/xiaoxiong-shopp-member-api/xiaoxiong-shopp-member-api.iml" filepath="$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-api/xiaoxiong-shopp-member-api/xiaoxiong-shopp-member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-messages/xiaoxiong-shopp-messages.iml" filepath="$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-messages/xiaoxiong-shopp-messages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-mobile-web/xiaoxiong-shopp-mobile-web.iml" filepath="$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-mobile-web/xiaoxiong-shopp-mobile-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-parent.iml" filepath="$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-parent.iml" />
+    </modules>
+  </component>
+</project>

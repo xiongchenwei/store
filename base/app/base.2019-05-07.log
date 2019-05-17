@@ -1,0 +1,46 @@
+2019-05-07 17:08:50.522 [main] INFO  com.xiaoxiong.MemberServer - No active profile set, falling back to default profiles: default
+2019-05-07 17:08:53.406 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-05-07 17:08:53.407 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-05-07 17:08:53.566 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-07 17:08:55.445 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-07 17:08:55.446 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-07 17:08:55.451 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-07 17:08:55.451 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-07 17:09:00.486 [main] WARN  org.springframework.cloud.starter.eureka.server.EurekaServerStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka-server is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka-server
+2019-05-07 17:09:00.748 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-05-07 17:09:03.235 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-05-07 17:09:03.235 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-05-07 17:09:03.382 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-05-07 17:09:03.382 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-05-07 17:09:03.745 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 17:09:03.966 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-07 17:09:03.966 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-07 17:09:03.967 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-07 17:09:03.967 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-07 17:09:03.967 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-07 17:09:03.967 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-05-07 17:09:03.967 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-07 17:09:04.502 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-07 17:09:04.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-05-07 17:09:04.506 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-07 17:09:04.510 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1557220144509 with initial instances count: 0
+2019-05-07 17:09:04.527 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557220144527, current=UP, previous=STARTING]
+2019-05-07 17:09:04.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-05-07 17:09:04.667 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-05-07 17:09:04.680 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-05-07 17:09:04.717 [main] INFO  com.xiaoxiong.MemberServer - Started MemberServer in 16.617 seconds (JVM running for 18.493)
+2019-05-07 17:09:07.046 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-05-07 17:09:07.887 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557220147887, current=DOWN, previous=UP]
+2019-05-07 17:09:07.887 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - Ignoring onDemand update due to rate limiter
+2019-05-07 17:09:07.887 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762: registering service...
+2019-05-07 17:09:08.066 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/SDWM-20190308VM:member:8762 - registration status: 204
+2019-05-07 17:09:34.587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-07 17:09:34.587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-07 17:09:34.587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-07 17:09:34.587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-07 17:09:34.587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-07 17:09:34.587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-05-07 17:09:34.587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-07 17:09:34.631 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-07 17:14:03.976 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 17:19:03.982 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

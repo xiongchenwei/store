@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xiaoxiong-shopp-euerkaserver:war">
+    <output-path>$PROJECT_DIR$/xiaoxiong-shopp-parent/xiaoxiong-shopp-euerkaserver/target</output-path>
+    <root id="archive" name="xiaoxiong-shopp-euerkaserver.war">
+      <element id="artifact" artifact-name="xiaoxiong-shopp-euerkaserver:war exploded" />
+    </root>
+  </artifact>
+</component>
